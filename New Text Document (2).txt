@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeremiah T-Shirts</title>
+    <style>
+        /* CSS code for styling the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        
+        #header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #header h1 {
+            margin: 0;
+        }
+        
+        #container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        
+        .tshirt {
+            width: 30%;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px #888888;
+            padding: 20px;
+        }
+        
+        .tshirt img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+        .tshirt h2 {
+            margin-top: 0;
+        }
+        
+        .tshirt p {
+            margin-bottom: 0;
+        }
+        
+        .btn {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Jeremiah T-Shirts</h1>
+    </div>
+    <div id="container">
+        <div class="tshirt">
+            <img src="https://via.placeholder.com/300x400.png?text=T-Shirt+1" alt="T-Shirt 1">
+            <h2>T-Shirt 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et mi ut eros bibendum rhoncus eu at eros.</p>
+            <p>$19.99</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="tshirt">
+            <img src="https://via.placeholder.com/300x400.png?text=T-Shirt+2" alt="T-Shirt 2">
+            <h2>T-Shirt 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et mi ut eros bibendum rhoncus eu at eros.</p>
+            <p>$24.99</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="tshirt">
+            <img src="https://via.placeholder.com/300x400.png?text=T-Shirt+3" alt="T-Shirt 3">
+            <h2>T-Shirt 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et mi ut eros bibendum rhoncus eu at eros.</p>
+            <p>$29.99</p>
+            <button class="btn">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
